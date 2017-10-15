@@ -1,6 +1,6 @@
 # Messenger Bot Automation
 Automação para envio de mensagens em massa através de mensageiros instantâneos (Facebook Messenger, WhatsApp, Telegram, etc.).
-
+----
 
 ### Instalação:
 
@@ -16,7 +16,7 @@ Automação para envio de mensagens em massa através de mensageiros instantâne
     ```
 
 Simples assim. :)
-
+----
 
 ### Como usar:
 
@@ -44,8 +44,7 @@ Simples assim. :)
         - O arquivo deve obedecer o layout:
         `phone,firstname,lastname,partner,message,delivered,dateDelivered`
 
-            - Pode-se substituir os valores de `phone` pelo nome do contato. Este campo é utilizado somente para a busca do contato no mensageiro.
-
+        - Pode-se substituir os valores de `phone` pelo nome do contato. Este campo é utilizado somente para a busca do contato no mensageiro.
         - Nomeie o arquivo como `raw_file.csv` e salve no diretório raíz.
         - Execute:
             ```sh
@@ -71,6 +70,7 @@ Simples assim. :)
     ```sh
     $ node app.js
     ```
+----
 
 ### Funcionamento:
 Após término de execução, serão carregados 3 arquivos, onde:
@@ -78,6 +78,7 @@ Após término de execução, serão carregados 3 arquivos, onde:
 - `delivered.csv`: mensagens enviadas com sucesso;
 - `notDelivered.csv`: mensagens não enviadas;
 - `raw_file.csv`: concatenação de mensagens enviadas e não enviadas. Pode ser útil para relatórios à humanos.
+----
 
 ### Aviso legal:
 Esse script e esse autor não tem qualquer ligação com qualquer mensageiro instantâneo ou empresas ligadas a estes. O projeto é de cunho acadêmico e sua utilização deve obedecer os termos de uso e políticas de pricacidade de mensageiros instantâneos (ou outro) ao qual foi/será aplicado, cabendo a responsabilidade de qualquer efeito legal ao executor.
