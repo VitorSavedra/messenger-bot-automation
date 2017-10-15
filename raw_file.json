@@ -1,0 +1,11 @@
+[
+    {
+        "phone": "5511987654321",
+        "firstname": "Vitor",
+        "lastname": "Savedra",
+        "partner": "XPTO Inc.",
+        "message": "Hello World!",
+        "delivered": "false",
+        "dateDelivered": ""
+    }
+]

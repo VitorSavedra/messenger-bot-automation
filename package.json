@@ -1,0 +1,37 @@
+{
+  "name": "messenger-bot-automation",
+  "version": "1.0.0",
+  "description": "Automação para envio de mensagens em massa através de mensageiros (Facebook Messenger, WhatsApp, Telegram, etc.).",
+  "main": "app.js",
+  "dependencies": {
+    "concat-files": "^0.1.1",
+    "csv-string": "^2.3.2",
+    "csvjson": "^4.3.4",
+    "robotjs": "^0.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorSavedra/messenger-bot-automation.git"
+  },
+  "keywords": [
+    "bot",
+    "automation",
+    "messenger",
+    "bulk-message",
+    "bulk-operation",
+    "whatsapp",
+    "telegram",
+    "facebook-messenger",
+    "instant-messaging"
+  ],
+  "author": "Vitor Savedra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VitorSavedra/messenger-bot-automation/issues"
+  },
+  "homepage": "https://github.com/VitorSavedra/messenger-bot-automation#readme"
+}
